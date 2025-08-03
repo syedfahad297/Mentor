@@ -1,4 +1,118 @@
-.dd{
-    display: flex;
-    flex-wrap:wrap;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-1 {
+    color: white;
+    border: 1px white solid;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn2:hover i {
+    margin-left: 10px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 50px auto 20px auto;
+    background-color: #eafdeb;
+}
+
+.icon i {
+    color: #5fcf80;
+    padding: 15px;
+}
+
+.cad:hover i {
+    color: white;
+    background-color: #5fcf80;
+    border-radius: 100%;
+}
+
+.bga {
+    background-color: #5fcf80;
+}
+
+.btn-3 {
+    background-color: #82f3a4;
+    color: white;
+    width: 150px;
+    border: none;
+}
+
+.btn-3:hover {
+    background-color: white;
+    color: #5fcf80;
+    border: none;
+}
+
+.box-icon {
+    border: 1px rgba(27, 27, 27, 0.226) solid;
+}
+
+.box-icon:hover {
+    border: 1px #5fcf80 solid;
+    color: #5fcf80;
+}
+
+.lin {
+    width: 150px;
+    border-bottom: #5fcf80 2px solid;
+}
+
+.h-w {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.card-title:hover {
+    color: #5fcf80;
+}
+
+.user-name {
+    color: rgba(27, 27, 27, 0.39);
+}
+
+.user-name:hover {
+    color: #5fcf80;
+}
+.i-4:hover i{
+    color: #5fcf80;
+}
+.ixyz{
+    width: 45px;
+    height: 45px;
+   border: 1px rgba(27, 27, 27, 0.226) solid;
+   border-radius: 100%;
+}
+.ixyz:hover{
+    width: 45px;
+    height: 45px;
+   border: 1px #5fcf80 solid;
+   color: #5fcf80;
+}
+.hover-13:hover{
+    color: #5fcf80;
+}
+.btn-10{
+    margin-left: -30px;
+}
+.text-12{
+    color: #5fcf80;
+}
+.bga{
+    height: 300px;
+}
+.xyz{
+    margin: auto;
+}
+.bg-hh{
+    background-color: #5ac479;
 }
